@@ -1,2 +1,2 @@
-from modules import Louise
-from modules import Emily
+from idols import Louise
+from idols import Emily
