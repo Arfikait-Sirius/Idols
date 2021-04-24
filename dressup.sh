@@ -1,6 +1,6 @@
 #!/bin/sh
 
-DIR_IDOLS="$1/modules"
+DIR_IDOLS="$1/idols"
 if [ ! -d $DIR_IDOLS ]; then
      mkdir $DIR_IDOLS
      touch $DIR_IDOLS/__init__.py
