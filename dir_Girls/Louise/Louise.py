@@ -30,6 +30,17 @@ def fn_replace( base: str, target: str, replacement: str ) -> str:
 
 #------------------------
 # :[ NAME ]:
+#     fn_split
+#
+# :[ CATEGORY ]:
+#     Skill
+#------------------------
+def fn_split( base: str, splitter: str, position: int ) -> str:
+     list = base.split( splitter )
+     return list[position]
+
+#------------------------
+# :[ NAME ]:
 #     fn_upper_all
 #
 # :[ CATEGORY ]:
