@@ -5,7 +5,7 @@
 # :[ CATEGORY ]:
 #     Skill
 #------------------------
-def fn_disp_str( base ):
+def fn_disp_str( base ) -> None:
      print( base, end = "" )
 
 #------------------------
@@ -15,5 +15,5 @@ def fn_disp_str( base ):
 # :[ CATEGORY ]:
 #     Skill
 #------------------------
-def fn_disp_line( base ):
+def fn_disp_line( base ) -> None:
      print( base )
