@@ -26,7 +26,7 @@ def fn_copy( base: str ) -> str:
 #     Skill
 #------------------------
 def fn_replace( base: str, target: str, replacement: str ) -> str:
-     return base.replace( target, replacement )
+     return base.replace( target, replacement, 1 )
 
 #------------------------
 # :[ NAME ]:
