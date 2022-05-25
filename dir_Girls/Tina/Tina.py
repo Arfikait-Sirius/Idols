@@ -32,7 +32,7 @@ def fn_set_girl_name( name: str ) -> None:
 def fn_set_skill_name( target: str ) -> None:
      global skill_name
      skill_name = target
-     
+
      print( f"{LABEL_TARGET}{skill_name}()" )
 
      return
@@ -66,5 +66,18 @@ def fn_disp_result( result: bool ) -> None:
           print( f"{LABEL_RESULT}{girl_name} = OK." )
      else:
           print( f"{LABEL_RESULT}{girl_name} = NG." )
+
+     return
+
+#------------------------
+# :[ NAME ]:
+#     fn_print
+#
+# :[ CATEGORY ]:
+#     Skill
+#------------------------
+def fn_print( result: str ) -> None:
+
+     print( f"{LABEL_PRINT}{result}" )
 
      return
